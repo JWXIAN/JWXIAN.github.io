@@ -1,0 +1,108 @@
+# Site settings
+title: JW | BY Blog
+SEOTitle: JW | BY Blog
+header-img: img/home-bg-o.jpg
+email: 320891162@qq.com
+description: "Every failure is leading towards success."
+keyword: "火车票抢购, iPhone预约工具, JW的博客, 简记, 纸飞机, iOS, Apple, iPhone, Mac火车票抢购, iOS火车票抢购, 火车票预约, 预约"
+url: "https://jwblog.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/JWXIAN/jwblog.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Hey man!"
+sidebar-avatar: /img/post-bg-hacker.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+# weibo_username:     qiubaiying
+zhihu_username:     
+github_username:    JWXIAN
+facebook_username:  
+jianshu_username:   
+#twitter_username:   qiubaiying
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: qiubaiying
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 9536bb67fd24577fcea5   #生成的clientID
+  clientSecret: 0dea335a6c88458084c448c3055671b8a092af24  #同上
+  repo: https://jwblog.github.io    #仓库名称
+  owner: JWXIAN    #github用户名
+  admin: JWXIAN
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: 
+
+# Google Analytics
+ga_track_id: 'UA-111459652-1'            # Format: UA-xxxxxx-xx
+ga_domain: jwxian.com
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
+    }
+]

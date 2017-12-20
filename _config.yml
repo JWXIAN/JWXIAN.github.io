@@ -5,9 +5,9 @@ header-img: img/home-bg-o.jpg
 email: 320891162@qq.com
 description: "Every failure is leading towards success."
 keyword: "火车票抢购, iPhone预约工具, JW的博客, 简记, 纸飞机, iOS, Apple, iPhone, Mac火车票抢购, iOS火车票抢购, 火车票预约, 预约"
-url: "https://jwxian.github.io"          # your host, for absolute URL
+url: "https://JWXIAN.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/JWXIAN/jwxian.github.io.git" # you code repository
+github_repo: "https://github.com/JWXIAN/JWXIAN.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -64,7 +64,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 9536bb67fd24577fcea5   #生成的clientID
   clientSecret: 0dea335a6c88458084c448c3055671b8a092af24  #同上
-  repo: https://jwxian.github.io    #仓库名称
+  repo: https://JWXIAN.github.io    #仓库名称
   owner: JWXIAN    #github用户名
   admin: JWXIAN
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
@@ -78,7 +78,7 @@ gitalk:
 
 # Google Analytics
 ga_track_id: 'UA-111459652-1'            # Format: UA-xxxxxx-xx
-ga_domain: jwxian.com
+ga_domain: jwatc.com
 
 
 
